@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    background-color: #48435C;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #61E786;
+}
+
+hr {
+    border-color: #61E786;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tentativas {
+    margin-top: 90px;
+}
+
+form {
+    margin-top: 150px;
+    color: #61E786;
+    border: 4px solid #61E786;
+    border-radius: 50px;
+    width: 565px;
+    height: 400px;
+}
+
+form h2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+form hr {
+    border: 3px solid #61E786;
+    width: 558px;
+}
+
+form .dados{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+form .dados input {
+    width: 90%;
+    height: 25px;
+    background-color: #48435C;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #61E786;
+    color: #61E786;
+    font-size: 20px;
+}
+
+form .dados input::-webkit-input-placeholder {
+    color: #61E786;
+    font-size: 20px;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+
+button, a {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #EDFFEC;
+    background-color: #61E786;
+    border-radius: 10px;
+    padding: 15px;
+    height: 50px;
+    width: 195px;
+    border: none;
+    transition: .3s;
+    font-weight: 100;
+}
+
+a:hover, button:hover {
+    color: #61E786;
+    background-color: #EDFFEC;
+}
+
+.btns {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
