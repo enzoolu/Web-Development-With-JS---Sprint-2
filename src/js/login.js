@@ -29,6 +29,6 @@ function verificarLogin() {
             });
             setTimeout(function() {
                 indow.open('https://urban-flow.netlify.app');
-            }, 1700)
+            }, 1750);
     };
 };

@@ -43,6 +43,6 @@ function form() {
 
             setTimeout(function() {
                 window.open('./src/assets/pages/login.html');
-            }, 1700)
+            }, 1750);
     };
 };
