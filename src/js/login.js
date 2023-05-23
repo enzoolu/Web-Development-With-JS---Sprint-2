@@ -9,7 +9,11 @@ function verificarLogin() {
     let emailLogin = document.getElementById('emailLogin').value;
     let senhaLogin = document.getElementById('senhaLogin').value;
 
-    if (nomeLogin != sessionStorage.getItem('nome') || emailLogin != sessionStorage.getItem('email') || senhaLogin != sessionStorage.getItem('senha')) {
+    let nomeCadastrado = sessionStorage.getItem('nome');
+    let emailCadastrado = sessionStorage.getItem('email');
+    let senhaCadastrado = sessionStorage.getItem('senha');
+
+    if (nomeLogin != nomeCadastrado || emailLogin != emailCadastrado || senhaLogin != senhaCadastrado) {
         Swal.fire(
             {
                 title: 'Erro:',
