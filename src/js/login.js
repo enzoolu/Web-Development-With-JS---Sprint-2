@@ -2,7 +2,7 @@ document.getElementById('entrar').addEventListener('click', e => {
     e.preventDefault()
 
     verificarLogin();
-})
+});
 
 function verificarLogin() {
     let nomeLogin = document.getElementById('nameLogin').value;
@@ -27,6 +27,8 @@ function verificarLogin() {
                 text: 'Bem-Vindo(a) à Urban Flow',
                 icon: 'success'
             });
-        window.open('https://urban-flow.netlify.app')
-    }
-}
+            setTimeout(function() {
+                indow.open('https://urban-flow.netlify.app');
+            }, 1700)
+    };
+};

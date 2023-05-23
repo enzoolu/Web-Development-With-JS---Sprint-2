@@ -8,6 +8,7 @@ function form() {
     let nome = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let senha = document.getElementById('senha').value;
+
     sessionStorage.setItem('nome', nome);
     sessionStorage.setItem('email', email);
     sessionStorage.setItem('senha', senha);
@@ -39,6 +40,9 @@ function form() {
                 title: 'Dados Salvos',
                 icon: 'success'
             });
-        window.open('./src/assets/pages/login.html')
+
+            setTimeout(function() {
+                window.open('./src/assets/pages/login.html');
+            }, 1700)
     };
 };
